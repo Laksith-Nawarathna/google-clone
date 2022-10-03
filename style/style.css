@@ -278,19 +278,59 @@ main{
 footer{
     display: flex;
     flex-direction: column;
+    font-size: 14px;
+    color: #70757a;
+    background: #f2f2f2;
+    flex-shrink: 0;
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#country{
+    padding: 15px 30px;
+    border-bottom:1px solid #dadce0;
+    
 }
 
 #g-footer{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    
 }
 
 #about{
     display: flex;
 }
 
+#about a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #70757a;
+}
+
 #legal{
     display: flex;
+
 }
+
+#legal a{
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #70757a;
+}
+
+#legal span{
+    padding: 15px;
+    cursor: pointer;
+}
+
 
 
 
